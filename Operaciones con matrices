@@ -32,7 +32,6 @@ int main() {
 					for (i= 0; i<V; i++){
 						for (j=0; j<V; j++){
 							Y[i][j]=rand()%(9)+1;
-							printf("%d ",Y[i][j]);
 							Z+=Y[i][j];
 							
 						}//Fin del segundo for
@@ -52,7 +51,6 @@ int main() {
 					for (i= 0; i<V; i++){
 						for (j=0; j<V; j++){
 							Y[i][j]=rand()%(9)+1;
-							printf("%d ",Y[i][j]);
 							Z=Z-Y[i][j];
 							
 						}//Fin del segundo for
@@ -72,7 +70,6 @@ int main() {
 					for (i= 0; i<V; i++){
 						for (j=0; j<V; j++){
 							Y[i][j]=rand()%(9)+1;
-							printf("%d ",Y[i][j]);
 							Z=Z*Y[i][j];
 							
 						}//Fin del segundo for
