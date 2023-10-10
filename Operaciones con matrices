@@ -35,7 +35,6 @@ int main() {
 							Z+=Y[i][j];
 							
 						}//Fin del segundo for
-						printf("\n");
 					}//Fin del primer for
 					
 					printf("La suma de las matrices es: %d\n",Z);
@@ -52,12 +51,11 @@ int main() {
 						for (j=0; j<V; j++){
 							Y[i][j]=rand()%(9)+1;
 							Z=Z-Y[i][j];
-							
+
 						}//Fin del segundo for
-						printf("\n");
 					}//Fin del primer for
 					
-					printf("La suma de las matrices es: %d\n",Z);
+					printf("La resta de las matrices es: %d\n",Z);
 					printf("\nPresione cualquier tecla para continuar.\n");
 					getch ();
 					system ("cls");
@@ -73,10 +71,9 @@ int main() {
 							Z=Z*Y[i][j];
 							
 						}//Fin del segundo for
-						printf("\n");
 					}//Fin del primer for
 					
-					printf("La suma de las matrices es: %d\n",Z);
+					printf("La multiplicacion de las matrices es: %d\n",Z);
 					printf("\nPresione cualquier tecla para continuar.\n");
 					getch ();
 					system ("cls");
